@@ -1,0 +1,27 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sergeidobri/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/sergeidobri/eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeidobri/eslint.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0"
+  }
+}
